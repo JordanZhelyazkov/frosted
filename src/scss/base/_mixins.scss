@@ -50,5 +50,6 @@
 
 @mixin frost($intensity) {
   background: white;
-  $blur: $intensity * 2;
+  
+  backdrop-filter: blur($intensity * 2);
 }
